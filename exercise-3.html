@@ -1,0 +1,23 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+        <title>Input tutorial</title>
+        <script>
+               function multiplyBy()
+       {
+       var  num1 = document.getElementById("firstNumber").value;
+       var  num2 = document.getElementById("secondNumber").value;
+        var num3= num1*num2;
+		alert(num1+ "*" +num2 + "=" + num3);
+            }
+        </script>
+  </head>
+  <body>
+   Num 1: <input type="text" id="firstNumber" /><br/><br/>
+   Num 2: <input type="text" id="secondNumber"/><br/>
+      <br/>
+   <input type="button" onClick="multiplyBy()" value="Multiply">
+         </body>
+       </html>

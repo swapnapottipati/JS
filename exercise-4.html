@@ -1,0 +1,60 @@
+
+
+
+<!DOCTYPE html>
+<html> 
+<head>
+<meta charset=utf-8 />
+<title>calculate Add,Multiply,Substract,Divide</title>
+<style>
+body {margin: 30px;}
+</style>   
+</head>
+<body>
+<script>
+function multiplyBy()
+{
+       var  num1 = document.getElementById("firstNumber").value;
+       var  num2 = document.getElementById("secondNumber").value;
+        var num3= num1*num2;
+		alert(num1+ "*" +num2 + "=" + num3);
+}
+
+function divideBy() 
+{ 
+      var   num1 = document.getElementById("firstNumber").value;
+       var  num2 = document.getElementById("secondNumber").value;
+	   var num3= num1/num2;
+        alert(num1+ "/" +num2 +  "=" + num3);
+}
+function AddBy() 
+{ 
+       var num1 = document.getElementById("firstNumber").value;
+       var num2 = document.getElementById("secondNumber").value;
+       var num3= num1+num2;
+        alert(num1+ "+" +num2 + "=" + num3);
+	   
+}
+function SubstractBy() 
+{ 
+        num1 = document.getElementById("firstNumber").value;
+        num2 = document.getElementById("secondNumber").value;
+      var num3= num1-num2;
+        alert(num1+ "-" +num2 + "=" + num3);
+	   
+		
+}
+</script>
+<form>
+Num 1: <input type="text" id="firstNumber" /><br/><br/>
+Num 2: <input type="text" id="secondNumber" /><br/>
+   <br/>
+<a href="#" onClick="multiplyBy()">Multiply</a>&nbsp;&nbsp;
+<a href="#" onClick="divideBy()">Divide<a>&nbsp;&nbsp;
+<a href="#"  onClick="AddBy()">Add<a>&nbsp;&nbsp;
+<a href="#" onClick="SubstractBy()">Substract</a>
+</form><br/>
+
+</p>
+</body>
+</html>
